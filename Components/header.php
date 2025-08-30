@@ -19,12 +19,13 @@
             <a href = '#contacts' align = 'left'>
                 Contacts
             </a>
-      </div>
-             <div id = 'navi' align = 'right'>
+        </div>
+        <div id = 'header-socials'>
             <a href = '#about' align = 'left'>
-                About
+                <img src = '<?php echo $BASE_URL;?>/Icons/fb-black.png'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/in-black.png'>
             </a>
-      </div>
+        </div>
     </div>
 </header>
    

@@ -19,6 +19,16 @@
     padding : 1mm 10mm;
   }
 
+  #header-socials img
+  {
+    width : 30px;
+    height : auto;
+  }
+
+  #header-socials 
+  {
+    padding-top : 5mm;
+  }
 
   #header-container
   {
@@ -35,7 +45,7 @@
 
   #navi
   {
-    padding-top : 7mm;
+    padding-top : 6mm;
   }
 
   #logo img
