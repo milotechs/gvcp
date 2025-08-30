@@ -1,0 +1,9 @@
+<style>
+  #home
+  {
+    height : 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>

@@ -2,8 +2,9 @@
   body 
   {
     font-family: "";
-    font-size: 5mm;
+    font-size: 4.5mm;
     background-color: white;
+    font-family: "Manrope", sans-serif;
   }
 
   body a

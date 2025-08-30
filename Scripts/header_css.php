@@ -4,14 +4,27 @@
     position : fixed;
     z-index: 2;
     width : 100%;
-    padding : 3mm 5mm;
     box-shadow : 2px 5px 7px 2px rgb(0,0,0,0.05);
   }
+
+  #contacts_haeder
+  {
+    background-color: orangered;
+    margin-bottom: 3mm;
+    color : white;
+  }
+
+  #contacts_haeder
+  {
+    padding : 1mm 10mm;
+  }
+
 
   #header-container
   {
     display : flex;
-      justify-content: space-between;
+    justify-content: space-between;
+    padding : 2mm 10mm;
   } 
 
   #navi a
@@ -27,7 +40,7 @@
 
   #logo img
   {
-    width: 80px;
+    width: 70px;
     height : auto;
     object-fit: contain;
   }

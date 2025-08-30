@@ -3,7 +3,7 @@
         <div id = 'logo'>
             <img src = '<?php echo $BASE_URL;?>/Icons/logo.png'>
         </div>
-        <div id = 'navi'>
+        <div id = 'navi' align = 'right'>
             <a href = '#about' align = 'left'>
                 About
             </a>
@@ -18,6 +18,11 @@
             </a>
             <a href = '#contacts' align = 'left'>
                 Contacts
+            </a>
+      </div>
+             <div id = 'navi' align = 'right'>
+            <a href = '#about' align = 'left'>
+                About
             </a>
       </div>
     </div>
