@@ -3,6 +3,7 @@
   {
     position : fixed;
     z-index: 2;
+    background-color: white;
     width : 100%;
     box-shadow : 2px 5px 7px 2px rgb(0,0,0,0.05);
   }
