@@ -22,8 +22,10 @@
         </div>
         <div id = 'header-socials'>
             <a href = '#about' align = 'left'>
-                <img src = '<?php echo $BASE_URL;?>/Icons/fb-black.png'>
-                                <img src = '<?php echo $BASE_URL;?>/Icons/in-black.png'>
+               <img src = '<?php echo $BASE_URL;?>/Icons/fb-black.png'>
+            </a>
+            <a href = '#about' align = 'left'>
+             <img src = '<?php echo $BASE_URL;?>/Icons/in-black.png'>
             </a>
         </div>
     </div>

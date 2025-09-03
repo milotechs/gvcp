@@ -3,8 +3,8 @@
   {
     position : fixed;
     z-index: 2;
-    width : 100%;
-    box-shadow : 2px 5px 7px 2px rgb(0,0,0,0.05);
+    width : 100%; 
+    border-bottom: solid rgb(0,0,0,0.1) 0.2mm;
   }
 
   #contacts_haeder
@@ -23,6 +23,7 @@
   {
     width : 30px;
     height : auto;
+    margin-left: 1mm;
   }
 
   #header-socials 
