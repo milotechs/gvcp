@@ -19,6 +19,7 @@
             <a href = '#contacts' align = 'left'>
                 Contacts
             </a>
+<<<<<<< Updated upstream
         </div>
         <div id = 'header-socials'>
             <a href = '#about' align = 'left'>
@@ -28,6 +29,13 @@
              <img src = '<?php echo $BASE_URL;?>/Icons/in-black.png'>
             </a>
         </div>
+=======
+      </div>
+      <div id = 'socials' align = 'right'>
+            <img src = '<?php echo $BASE_URL;?>/Icons/fb_black.png'>
+            <img src = '<?php echo $BASE_URL;?>/Icons/gram_black.png'>
+      </div>
+>>>>>>> Stashed changes
     </div>
 </header>
    
