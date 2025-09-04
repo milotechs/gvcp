@@ -5,6 +5,7 @@
     z-index: 2;
     width : 100%;
     box-shadow : 2px 5px 7px 2px rgb(0,0,0,0.05);
+    background-color: white;
   }
 
   #contacts_haeder
