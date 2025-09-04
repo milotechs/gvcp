@@ -111,6 +111,5 @@
         height: 700px;
         object-fit: cover;
         border-radius: 2mm;
-
     }
 </style>
