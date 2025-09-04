@@ -3,8 +3,8 @@
   {
     position : fixed;
     z-index: 2;
-    width : 100%; 
-    border-bottom: solid rgb(0,0,0,0.1) 0.2mm;
+    width : 100%;
+    box-shadow : 2px 5px 7px 2px rgb(0,0,0,0.05);
   }
 
   #contacts_haeder
