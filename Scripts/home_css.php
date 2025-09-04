@@ -26,8 +26,8 @@
      font-size: 7mm;
      font-weight: 200;
    }
-<<<<<<< Updated upstream
-=======
+
+
 
    /* --------- why choose us/ core values---------*/
  
@@ -114,6 +114,5 @@
         object-fit: cover;
         border-radius: 2mm; 
     }
-    
->>>>>>> Stashed changes
+
 </style>
