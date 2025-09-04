@@ -132,40 +132,51 @@
             </div>
         </div>
     </section>
-    <section id = 'why-choose-us' class = 'container'>
-             <h1 id = 'section-header'>Why Choose Uas?</h1>
+    <section  class = 'container'>
+             <h1 id = 'section-header'>Why Choose Us?</h1>
              <hr id = 'hr'>
-             <div class = 'row' align  = "center">
-                <div class = 'col-md-5'>
+             <div class = 'row'>
+                <div class='col-md-6' id='why-choose-img'>
+                    <img src = '<?php echo $BASE_URL;?>/bg/why_choose_us.jpg'>
+                </div>
+                <div class='col-md-6'  id='why-choose-us'>
+                    <div class="row">
+                        <div class = 'col-md-6'>
                      <img src = '<?php echo $BASE_URL;?>/Icons/integrity.png'><br>
                      <b>Integrity</b>
                      <p>We conduct our business with honesty and transparency.</p>
                 </div>
-                <div class = 'col-md-4'>
+                <div class = 'col-md-6'>
                      <img src = '<?php echo $BASE_URL;?>/Icons/rely.png'><br>
                      <b>Relaibility</b>
                      <p>We deliver services and products on time and to specification.</p>
                 </div>
-                <div class = 'col-md-4'>
+                <div class = 'col-md-6'>
                      <img src = '<?php echo $BASE_URL;?>/Icons/innovate.png'><br>
                       <b>Innovation</b>
                      <p>We embrace modern technologies and methods to improve efficiency.</p>
                 </div>
-                   <div class = 'col-md-4'>
+                   <div class = 'col-md-6'>
                      <img src = '<?php echo $BASE_URL;?>/Icons/customers.png'><br>
                      <b>Customer Focus</b>
                      <p>We conduct our business with honesty and transparency.</p>
                 </div>
-                <div class = 'col-md-4'>
+                <div class = 'col-md-6'>
                      <img src = '<?php echo $BASE_URL;?>/Icons/expert.png'><br>
                      <b>Proficiency</b>
                      <p>We uphold proficiency as a core value by delivering services with skill, accuracy, and professionalism to meet and exceed client expectations.</p>
                 </div>
-                <div class = 'col-md-4'>
+                <div class = 'col-md-6'>
                      <img src = '<?php echo $BASE_URL;?>/Icons/sustain.png'><br>
                      <b>Sustainability</b>
                      <p>We deliver services and products on time and to specification.</p>
                 </div>
+
+                    </div>
+
+                    
+                </div>
+                
              </div>
         </section>
 </div>

@@ -105,5 +105,12 @@
    }
 
    /* --------- why choose us ---------*/
- 
+    #why-choose-img img
+    {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        border-radius: 2mm;
+
+    }
 </style>
