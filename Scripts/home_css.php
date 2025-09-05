@@ -27,8 +27,6 @@
      font-weight: 200;
    }
 
-
-
    /* --------- why choose us/ core values---------*/
  
    #core-values
@@ -112,7 +110,6 @@
         width: 100%;
         height: 700px;
         object-fit: cover;
-        border-radius: 2mm; 
+        border-radius: 2mm;
     }
-
 </style>

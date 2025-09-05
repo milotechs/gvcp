@@ -17,4 +17,22 @@
     width : 30px;
     height : auto;
   }
+
+  #section-header
+  {
+    font-weight : 200;
+    font-size: 1cm;
+    text-align: center;
+  }
+
+  #hr
+  {
+    background-color: rgb(0,0,0,0.7);
+    height: 0.2mm;
+  }
+
+  section
+  {
+    margin-top : 3cm;
+  }
 </style>

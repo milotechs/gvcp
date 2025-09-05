@@ -1,9 +1,22 @@
 
 
-
-<section>
-    
+<!---- contacts --------------->
+<section id = 'contacts'>
+    <div class = 'container'>
+        <div class = 'row'>
+            <div class = 'col-md-6' >
+                <div id = 'contact_details'>
+                
+                </div>
+            </div>
+            <div6 class = 'col-md-6'>
+     
+            </div>
+        </div>
+    </div>
 </section>
+
+<!---- Footer --------------->
 <footer>
     <div id = 'slogan-footer'>
         "Building with Integrity,<br>
