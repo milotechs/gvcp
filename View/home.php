@@ -128,55 +128,65 @@
                         <button>Explore</button>
                         <hr>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </section>
-    <section  class = 'container'>
-             <h1 id = 'section-header'>Why Choose Us?</h1>
-             <hr id = 'hr'>
-             <div class = 'row'>
+    <section class = 'container'>
+            <h1 id = 'section-header'>Why Choose Us?</h1>
+            <hr id = 'hr'>
+            <div class = 'row'>
                 <div class='col-md-6' id='why-choose-img'>
                     <img src = '<?php echo $BASE_URL;?>/bg/why_choose_us.jpg'>
                 </div>
-                <div class='col-md-6'  id='why-choose-us'>
-                    <div class="row">
-                        <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/integrity.png'><br>
-                     <b>Integrity</b>
-                     <p>We conduct our business with honesty and transparency.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/rely.png'><br>
-                     <b>Relaibility</b>
-                     <p>We deliver services and products on time and to specification.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/innovate.png'><br>
-                      <b>Innovation</b>
-                     <p>We embrace modern technologies and methods to improve efficiency.</p>
-                </div>
-                   <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/customers.png'><br>
-                     <b>Customer Focus</b>
-                     <p>We conduct our business with honesty and transparency.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/expert.png'><br>
-                     <b>Proficiency</b>
-                     <p>We uphold proficiency as a core value by delivering services with skill, accuracy, and professionalism to meet and exceed client expectations.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/sustain.png'><br>
-                     <b>Sustainability</b>
-                     <p>We deliver services and products on time and to specification.</p>
-                </div>
-
+                <div class='col-md-6'  id = 'why-choose-us'>
+                        <div class="row">
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/commit.png'><br>
+                                <p>Commitment to international best practices and ethical standards.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/customers.png'><br>
+                                <p>Highly skilled workforce and strong technical expertise.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/pricing.png'><br>
+                                <p>Competitive pricing without compromising quality.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/satisfaction.png'><br>
+                                <p>Focus on customer satisfaction and long-term relationships.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/track.png'><br>
+                                <p>Proven track record in service delivery across multiple sectors.</p>
+                            </div>
+                        </div> 
                     </div>
-
-                    
                 </div>
-                
-             </div>
-        </section>
+    </section>
+    <section> 
+        <div class = 'container-fluid'>
+            <div class = 'row'>
+                <div class = 'col-md-6' id = 'catchy-pic'>
+                            
+                </div>
+                <div class = 'col-md-6' id = 'catchy-text'>
+                     <h1>Investing in Quality That Lasts</h1>
+                     <hr id = 'hr'>
+                     <p>
+                         Choosing our company means more than just hiring a service provider — it’s 
+                         about securing precision, durability, and reliability for your projects. 
+                         When customers pay for our construction and line boring services, they are 
+                         investing in quality workmanship, advanced technology, and solutions built to 
+                         last. Every payment ensures that we deliver projects on time, maintain the highest 
+                         safety standards, and provide tailored solutions that meet your exact needs. With us, 
+                         you don’t just pay for a service — you pay for peace of mind, long-term value, 
+                         and a trusted partner committed to building your success
+                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>

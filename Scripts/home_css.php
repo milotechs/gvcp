@@ -107,10 +107,37 @@
    /* --------- why choose us ---------*/
     #why-choose-img img
     {
-        width: 100%;
-        height: 700px;
-        object-fit: cover;
-        border-radius: 2mm;
-
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      border-radius: 2mm;
     }
+
+    
+   /* --------- Cathy-text ---------*/
+   #catchy-text
+   {
+      background-color: black;
+      color : white;
+      padding : 6cm 10mm; 
+   }
+
+  #catchy-text h1
+  {
+     font-size : 1cm;
+     font-weight: 300;
+  }
+
+  
+  #catchy-text p
+  {
+     font-weight: 200;
+  }
+
+   #catchy-pic
+   {
+     background-image: url('/gvcp/bg/man_bg.jpg'); 
+     background-position: center;
+     background-size: cover;
+   }
 </style>
