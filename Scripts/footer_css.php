@@ -33,4 +33,24 @@
       height : auto;
     }
 
+    #footer-bottom
+    {
+      
+      
+      padding : 10mm 0mm;
+      width: 100%;
+    }
+    #footer-bottom a
+    {
+      color : orange;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    #footer-bottom a:hover
+    {
+      text-decoration: underline;
+      color: blueviolet;
+    }
+
+
 </style>

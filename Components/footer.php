@@ -50,6 +50,12 @@
             </div>
         </div>
         <hr>
-        GVCP Investment limited
+        GVCP Investment limited 
+       
+        <div id='footer-bottom'>
+        Developed by <a href="https://www.milotechs.com" target="_blank" > Milo Tech Solutions limited</a> &copy; 2025</div>
+
     </div>
+
+    
 </footer>
