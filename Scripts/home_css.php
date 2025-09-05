@@ -11,7 +11,7 @@
   #title
   { 
     background-color: white; 
-    height : 400px;
+    min-height : 200px;
     position: absolute;
     width : 70%;
     padding : 10mm ;
