@@ -128,6 +128,20 @@
                         <button>Explore</button>
                         <hr>
                     </div>
+
+                     <!--added -->
+                     <div class = 'col-md-6'>
+                        <img src = '<?php echo $BASE_URL;?>/bg/automotive.jpg'><br>
+                        <b>Automotive Spare Parts</b>
+                        <p>
+                            We provide genuine, durable automotive spare parts that keep vehicles running smoothly and safely. 
+                            From engines to brakes and accessories, our wide range ensures quality, timely delivery, and fair pricing. 
+                            With us, customers get reliable parts, reduced downtime, and confidence on the road.
+                        </p>
+                        <button>Explore</button>
+                        <hr>
+                    </div>
+
                 </div>
             </div>
         </div>
