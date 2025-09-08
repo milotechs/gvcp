@@ -41,6 +41,7 @@
          }
          include 'Scripts/main_js.php';
          include 'Scripts/footer_js.php';
+         include 'Scripts/services_js.php';
     ?> 
   </body>
 

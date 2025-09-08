@@ -33,27 +33,26 @@
             <hr id = 'hr'>
             <div class="row">
                 <div class="col-md-3">
-                        <li> <a href="<?php echo $BASE_URL;?>/services/construction" >Construction </a></li>
-                        <li><a href="<?php echo $BASE_URL;?>/services/line_boring"> Line Boring</a> </li>
-                        <li> <a href="<?php echo $BASE_URL;?>/services/supply_of_pipes">Supply of Pipes</a></li>
-                        <li> <a href="<?php echo $BASE_URL;?>/services/leasing_toilets" >Leasing of Mobile Toilets</a></li>
-                        <li> <a href="<?php echo $BASE_URL;?>/services/automotive" >Automotive Spare Parts</a></li>
+                        <li> <a onclick="servicesLinks('construction','<?php echo $BASE_URL;?>')">Construction </a></li>
+                        <li><a onclick=" servicesLinks('line_boring','<?php echo $BASE_URL;?>')"> Line Boring</a> </li>
+                        <li> <a onclick="servicesLinks('supply_of_pipes', '<?php echo $BASE_URL;?>')" >Supply of Pipes</a></li>
+                        <li> <a onclick=" servicesLinks('leasing_toilets', '<?php echo $BASE_URL;?>')">Leasing of Mobile Toilets</a></li>
+                        <li> <a onclick=" servicesLinks('automotive', '<?php echo $BASE_URL;?>')">Automotive Spare Parts</a></li>
                     
                 </div>
-                <div class="col-md-9">
-                <?php
-                if(file_exists("View/services/".$url[1].".php"))
-                    {
-                        
-                        include 'View/services/'.$url[1].".php";
-                        
-                    }
-                    else
-                    {
-                
-                    }
-                ?>
-            </div>
+                <div class="col-md-9" id="services-content">
+                            
+                                <img class="services-main-pic" src = '<?php echo $BASE_URL;?>/bg/construction.jpg'><br>
+                                <h5 class="section-title">Construction Services</h5>
+                                <p>
+                                    We provide professional construction services, ranging from 
+                                    building works to civil engineering projects. With a team of 
+                                    skilled experts and access to modern tools and equipment, we 
+                                    deliver projects on time, within budget, and to the highest 
+                                    quality and safety standards.
+                                </p>
+                             
+                </div>
             </div>
          </section>
          

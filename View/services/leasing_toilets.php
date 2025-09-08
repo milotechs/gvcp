@@ -1,9 +1,15 @@
-<img src = '<?php echo $BASE_URL;?>/bg/pipes.jpg'><br>
-<h5 class="section-title">Supply of Pipes</h5>
-<p>
-    We supply durable and industry-standard pipes suitable 
-    for a wide range of applications, including water supply, 
-    drainage, and construction projects. By sourcing from trusted 
-    manufacturers, we ensure quality, reliability, and compliance 
-    with national and international standards.
-</p>
+<?php
+    echo 
+    <<<leasing_toilets
+        <img class="services-main-pic" 
+        src = '{$_GET['BASE_URL']}/bg/toilets.jpg'><br>
+        <h5 class="section-title">Leasing of Mobile Toilets</h5>
+        <p>
+            We supply and lease portable sanitation units designed 
+            for construction sites, outdoor events, and other temporary
+            facilities. Our mobile toilets are hygienic, environmentally 
+            friendly, and maintained to the highest cleanliness standards, 
+            ensuring convenience and comfort for users.
+        </p>
+leasing_toilets;
+?>
