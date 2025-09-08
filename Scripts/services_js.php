@@ -1,6 +1,7 @@
 <script>
     // Services page script
-  function  servicesLinks(page,base_url){
+  function  servicesLinks(btn,page,base_url){
+    $(btn).addClass('color', '#E7863CFF');
     $.ajax({
         url: '<?php echo $BASE_URL;?>/view/services/' + page + '.php',
         method: 'GET',

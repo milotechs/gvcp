@@ -33,11 +33,11 @@
             <hr id = 'hr'>
             <div class="row">
                 <div class="col-md-3">
-                        <li> <a onclick="servicesLinks('construction','<?php echo $BASE_URL;?>')">Construction </a></li>
-                        <li><a onclick=" servicesLinks('line_boring','<?php echo $BASE_URL;?>')"> Line Boring</a> </li>
-                        <li> <a onclick="servicesLinks('supply_of_pipes', '<?php echo $BASE_URL;?>')" >Supply of Pipes</a></li>
-                        <li> <a onclick=" servicesLinks('leasing_toilets', '<?php echo $BASE_URL;?>')">Leasing of Mobile Toilets</a></li>
-                        <li> <a onclick=" servicesLinks('automotive', '<?php echo $BASE_URL;?>')">Automotive Spare Parts</a></li>
+                        <li> <a onclick="servicesLinks(this,'construction','<?php echo $BASE_URL;?>')">Construction </a></li>
+                        <li><a onclick=" servicesLinks(this,'line_boring','<?php echo $BASE_URL;?>')"> Line Boring</a> </li>
+                        <li> <a onclick="servicesLinks(this,'supply_of_pipes', '<?php echo $BASE_URL;?>')" >Supply of Pipes</a></li>
+                        <li> <a onclick=" servicesLinks(this,'leasing_toilets', '<?php echo $BASE_URL;?>')">Leasing of Mobile Toilets</a></li>
+                        <li> <a onclick=" servicesLinks(this,'automotive', '<?php echo $BASE_URL;?>')">Automotive Spare Parts</a></li>
                     
                 </div>
                 <div class="col-md-9" id="services-content">
