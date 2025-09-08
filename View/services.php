@@ -32,9 +32,7 @@
             <h2 class="section-header">Our Services</h2>
             <hr id = 'hr'>
             <div class="row">
-                <div class="col-md-4">
-                    
-                    
+                <div class="col-md-3">
                         <li> <a href="<?php echo $BASE_URL;?>/services/construction" >Construction </a></li>
                         <li><a href="<?php echo $BASE_URL;?>/services/line_boring"> Line Boring</a> </li>
                         <li> <a href="<?php echo $BASE_URL;?>/services/supply_of_pipes">Supply of Pipes</a></li>
@@ -42,8 +40,19 @@
                         <li> <a href="<?php echo $BASE_URL;?>/services/automotive" >Automotive Spare Parts</a></li>
                     
                 </div>
-                <div class="col-md-8">
-                    <h3>fffff</h3>
+                <div class="col-md-9">
+                <?php
+                if(file_exists("View/services/".$url[1].".php"))
+                    {
+                        
+                        include 'View/services/'.$url[1].".php";
+                        
+                    }
+                    else
+                    {
+                
+                    }
+                ?>
             </div>
             </div>
          </section>
