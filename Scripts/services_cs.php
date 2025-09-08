@@ -38,5 +38,10 @@
         font-weight: 200;
         font-size: 5mm;
     }
+    /*active links*/
+    .active-link{
+        color:#E7863CFF;
+        font-weight: bold;
+    } 
 
 </style>

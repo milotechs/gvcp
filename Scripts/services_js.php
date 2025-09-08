@@ -1,7 +1,10 @@
 <script>
     // Services page script
   function  servicesLinks(btn,page,base_url){
-    $(btn).addClass('color', '#E7863CFF');
+    // Remove 'active' class from all links
+    $('col-md-3 li a').removeClass('active-link');
+    // Add 'active' class to the clicked link
+    $(btn).addClass('active-link');
     $.ajax({
         url: '<?php echo $BASE_URL;?>/view/services/' + page + '.php',
         method: 'GET',
