@@ -15,7 +15,7 @@ echo <<<leasing_toilets
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/why_choose_us.jpg" class="img-fluid rounded" alt="Event Mobile Toilets">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
             <h6>Event Mobile Toilets</h6>
             <p>
                 Perfect for weddings, concerts, festivals, and other outdoor gatherings, 
@@ -29,7 +29,7 @@ echo <<<leasing_toilets
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/why_choose_us.jpg" class="img-fluid rounded" alt="Construction Site Toilets">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
             <h6>Construction Site Toilets</h6>
             <p>
                 Our heavy-duty portable toilets are tailored for construction sites, 
@@ -43,7 +43,7 @@ echo <<<leasing_toilets
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/why_choose_us.jpg" class="img-fluid rounded" alt="VIP Toilets">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
             <h6>VIP Toilets</h6>
             <p>
                 For high-profile events and special occasions, we provide VIP mobile toilets 

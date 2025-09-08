@@ -17,7 +17,7 @@ echo <<<supply_of_pipes
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/pipes.jpg" class="img-fluid rounded" alt="Water Supply Pipes">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
             <h6>Water Supply Pipes</h6>
             <p>
                 We supply high-quality water pipes suitable for residential, commercial, 
@@ -31,7 +31,7 @@ echo <<<supply_of_pipes
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/pipes.jpg" class="img-fluid rounded" alt="Drainage Pipes">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
             <h6>Drainage Pipes</h6>
             <p>
                 Our drainage pipes are built for durability and efficiency, making them 
@@ -45,7 +45,7 @@ echo <<<supply_of_pipes
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/pipes.jpg" class="img-fluid rounded" alt="Construction & Industrial Pipes">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
             <h6>Construction & Industrial Pipes</h6>
             <p>
                 For construction projects and industrial use, we provide heavy-duty pipes 

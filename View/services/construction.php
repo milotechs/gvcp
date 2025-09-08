@@ -17,7 +17,7 @@
             <div class="col-md-3">
                 <img src="{$_GET['BASE_URL']}/bg/contact.png" class="img-fluid rounded" alt="Road Construction">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-9">
                 <h6>Road Construction</h6>
                 <p>
                     We design and build modern roads that enhance connectivity and economic growth. 
@@ -31,7 +31,7 @@
             <div class="col-md-3">
                 <img src="{$_GET['BASE_URL']}/bg/contact.png" class="img-fluid rounded" alt="House Building">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-9">
                 <h6>House Building</h6>
                 <p>
                     Our residential construction services bring your dream home to life. 
@@ -45,7 +45,7 @@
             <div class="col-md-3">
                 <img src="{$_GET['BASE_URL']}/bg/contact.png" class="img-fluid rounded" alt="Drainage Development">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-9">
                 <h6>Drainage Development</h6>
                 <p>
                     We construct effective drainage systems that protect communities and infrastructure 

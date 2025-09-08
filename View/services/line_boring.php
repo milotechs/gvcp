@@ -40,7 +40,9 @@ echo <<<line_boring
     </div>
 
     <div class="row service-detail mt-4">
-        
+        <div class="col-md-3">
+            <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
+        </div>
         <div class="col-md-9">
             <h6>Bearing Housing Rebuilds</h6>
             <p>
@@ -48,9 +50,6 @@ echo <<<line_boring
                 to factory specifications. This ensures proper alignment and performance 
                 of shafts and rotating components.
             </p>
-        </div>
-        <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
         </div>
     </div>
 line_boring;
