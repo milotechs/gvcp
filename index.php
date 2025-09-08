@@ -23,6 +23,7 @@
   <?php include 'Scripts/header_css.php'?>
   <?php include 'Scripts/footer_css.php'?>
   <?php include 'Scripts/error_404_css.php'?>
+  <?php include 'Scripts/about_css.php'?>
   <script src = '<?php echo $BASE_URL;?>/Scripts/query-3.4.1.min.js'></script>
 </head>
   <body>
