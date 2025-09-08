@@ -92,7 +92,7 @@
                     </div>
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/line-boring.jpg'><br>
-                        <b>Line Boring</b>
+                        <h5 class="section-title">Line Boring</h5>
                         <p>
                             We offer on-site line boring to repair worn or misaligned
                             bores in heavy machinery. Using portable machines, we restore
@@ -104,7 +104,7 @@
                     </div>
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/pipes.jpg'><br>
-                        <b>Supply of Pipes</b>
+                        <h5 class="section-title">Supply of Pipes</h5>
                         <p>
                             We supply durable and industry-standard pipes suitable 
                             for a wide range of applications, including water supply, 
@@ -117,7 +117,7 @@
                     </div>
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/toilets.jpg'><br>
-                        <b>Leasing of Mobile Toilets</b>
+                        <h5 class="section-title">Leasing of Mobile Toilets</h5>
                         <p>
                             We supply and lease portable sanitation units designed 
                             for construction sites, outdoor events, and other temporary
@@ -132,7 +132,7 @@
                      <!--added -->
                      <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/automotive.jpg'><br>
-                        <b>Automotive Spare Parts</b>
+                        <h5 class="section-title">Automotive Spare Parts</h5>
                         <p>
                             We provide genuine, durable automotive spare parts that keep vehicles running smoothly and safely. 
                             From engines to brakes and accessories, our wide range ensures quality, timely delivery, and fair pricing. 
