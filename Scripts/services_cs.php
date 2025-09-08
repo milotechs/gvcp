@@ -24,7 +24,7 @@
     }
     #services-mini-header li :hover
     {
-        color: #E7863CFF;
+        color: #E7503CFF;
     }
     #services-mini-header
     {
@@ -35,12 +35,12 @@
     {
         text-decoration: none;
         color : black;
-        font-weight: 200;
+        font-weight: 200px;
         font-size: 5mm;
     }
     /*active links*/
     .active-link{
-        color:#E7863CFF;
+        color:#E7863CFF !important;
         font-weight: bold;
     } 
 
