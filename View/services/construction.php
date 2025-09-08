@@ -41,11 +41,11 @@
             </div>
         </div>
 
-        <div class="row service-detail mt-4">
+        <div class="row service-detail mt-6">
             <div class="col-md-3">
                 <img src="{$_GET['BASE_URL']}/bg/contact.png" class="img-fluid rounded" alt="Drainage Development">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <h6>Drainage Development</h6>
                 <p>
                     We construct effective drainage systems that protect communities and infrastructure 
