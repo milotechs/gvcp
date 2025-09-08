@@ -27,6 +27,8 @@
      font-weight: 200;
    }
 
+  
+
    /* --------- why choose us/ core values---------*/
  
    #core-values
@@ -71,6 +73,10 @@
     font-size : 4mm;
     padding : 2mm 6mm;
     border-radius: 1mm;
+  }
+  #services h5{
+    color: white;
+    font-size: 5mm;
   }
 
   #services .col-md-6

@@ -8,8 +8,8 @@
         <div class = 'row'>
             <div class = 'col-md-6'>
                     <div id =  'title'>
-                        <h1>Construction with integrity</h1>
-                        <hr>
+                        <h1 class="section-title">Construction with integrity</h1>
+                        
                         <p>
                             GVCP provides a wide range of construction
                             services designed to meet the needs of clients
@@ -79,7 +79,7 @@
                 <div class = 'row'>
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/construction.jpg'><br>
-                        <b>Construction Services</b>
+                        <h5 class="section-title">Construction Services</h5>
                         <p>
                             We provide professional construction services, ranging from 
                             building works to civil engineering projects. With a team of 

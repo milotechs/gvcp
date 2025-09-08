@@ -35,4 +35,14 @@
   {
     margin-top : 3cm;
   }
+ /*line under title*/ 
+  .section-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #E7863CFF;
+}
 </style>
