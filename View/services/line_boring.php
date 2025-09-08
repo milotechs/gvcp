@@ -11,11 +11,11 @@ echo <<<line_boring
     </p>
 
     <!-- Service details with image and description -->
-    <div class="row service-detail mt-6">
+    <div class="row service-detail mt-4">
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Heavy Machinery Repairs">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-9">
             <h6>Heavy Machinery Repairs</h6>
             <p>
                 Our team performs accurate boring on equipment such as excavators, bulldozers, 
@@ -29,7 +29,7 @@ echo <<<line_boring
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Pivot Point Restoration">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-9">
             <h6>Pivot Point Restoration</h6>
             <p>
                 We restore worn pivot points and joints, ensuring smooth movement and extended 
@@ -39,17 +39,18 @@ echo <<<line_boring
         </div>
     </div>
 
-    <div class="row service-detail mt-6">
-        <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
-        </div>
-        <div class="col-md-4">
+    <div class="row service-detail mt-4">
+        
+        <div class="col-md-9">
             <h6>Bearing Housing Rebuilds</h6>
             <p>
                 Our line boring services include rebuilding and resizing bearing housings 
                 to factory specifications. This ensures proper alignment and performance 
                 of shafts and rotating components.
             </p>
+        </div>
+        <div class="col-md-3">
+            <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
         </div>
     </div>
 line_boring;
