@@ -4,6 +4,7 @@
       background-color: black;
       padding-bottom: 4cm;
       color : white;
+      margin-top: 4cm;
     }
 
     #slogan-footer

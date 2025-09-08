@@ -59,9 +59,13 @@
 
   @media only screen and (max-width : 991px) 
   {
-    #header
+    header
     {
       display : none;
+    }
+     #mobile-header
+    {
+      display : block;
     }
   }
 

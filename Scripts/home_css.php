@@ -11,7 +11,7 @@
   #title
   { 
     background-color: white; 
-    height : 400px;
+    min-height : 200px;
     position: absolute;
     width : 70%;
     padding : 10mm ;
@@ -108,8 +108,8 @@
     #why-choose-img img
     {
       width: 100%;
-      height: 600px;
-      object-fit: cover;
+      height: auto;
+      object-fit: contain;
       border-radius: 2mm;
     }
 
@@ -119,7 +119,7 @@
    {
       background-color: black;
       color : white;
-      padding : 6cm 10mm; 
+      padding : 4cm 10mm; 
    }
 
   #catchy-text h1
@@ -128,7 +128,6 @@
      font-weight: 300;
   }
 
-  
   #catchy-text p
   {
      font-weight: 200;
@@ -140,4 +139,47 @@
      background-position: center;
      background-size: cover;
    }
+   
+   /*contact us */
+   #contact-us-pic img
+   {
+    width : 100%;
+    height : auto;
+   }
+
+   #detail img
+   {
+    width : 25px;
+    height: 25px;
+   }
+
+   #contact-details
+   {
+     padding-top : 2.5cm 
+   }
+
+   #detail 
+   {
+     border : solid 0.2mm rgb(0,0,0,0.1);
+     border-radius: 1mm;
+     padding: 3mm 2mm;
+     box-shadow : 2px 5px 8px 2px rgb(0,0,0,0.1);
+     display : flex;
+     margin-bottom : 3mm;
+     justify-content: space-between;
+     transition: 0.5s;
+   }
+
+   #detail:hover 
+   {
+     background-color: rgb(255,165,0,0.5);
+   }
+
+    #contact-details a
+   {
+     text-decoration : none;
+     color : black;
+   }
+
+
 </style>

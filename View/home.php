@@ -1,7 +1,6 @@
 <div id = 'home'>
     <div id = 'hero'>
         <div class = 'container'>
-            <h1>Construction</h1>
         </div>
     </div> 
     <div class = 'container'>
@@ -138,7 +137,7 @@
             <hr id = 'hr'>
             <div class = 'row'>
                 <div class='col-md-6' id='why-choose-img'>
-                    <img src = '<?php echo $BASE_URL;?>/bg/why_choose_us.jpg'>
+                    <img src = '<?php echo $BASE_URL;?>/bg/why_choose_us.png'>
                 </div>
                 <div class='col-md-6'  id = 'why-choose-us'>
                         <div class="row">
@@ -169,10 +168,10 @@
     <section> 
         <div class = 'container-fluid'>
             <div class = 'row'>
-                <div class = 'col-md-6' id = 'catchy-pic'>
+                <div class = 'col-md-7' id = 'catchy-pic'>
                             
                 </div>
-                <div class = 'col-md-6' id = 'catchy-text'>
+                <div class = 'col-md-5' id = 'catchy-text'>
                      <h1>Investing in Quality That Lasts</h1>
                      <hr id = 'hr'>
                      <p>

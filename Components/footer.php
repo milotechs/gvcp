@@ -1,21 +1,43 @@
 
 
 <!---- contacts --------------->
-<section id = 'contacts'>
+<section id = 'contact-us'>
     <div class = 'container'>
+        <h1 id = 'section-header'>Conatact us</h1>
+        <hr id = 'hr'>
         <div class = 'row'>
-            <div class = 'col-md-6' >
-                <div id = 'contact_details'>
-                
+            <div class = 'col-md-2'>
+
+            </div>
+            <div class='col-md-4' id='contact-us-pic'>
+                <img src = '<?php echo $BASE_URL;?>/bg/contact_us.gif'>
+            </div>
+            <div class='col-md-4'  id = 'contact-details'>
+                    <a href = 'Tel:260777231415'>
+                        <div id = 'detail'>
+                            <img src = '<?php echo $BASE_URL;?>/Icons/phone.png'><br>
+                            <span>+260777231415</span>
+                        </div>
+                    </a>
+                    <a href = 'mailto:info@gvcpli.com'>
+                    <div id = 'detail'>
+                            <img src = '<?php echo $BASE_URL;?>/Icons/email.png'><br>
+                            <span>info@gvcpli.com</span>
+                        </div>
+                    </a>
+                    <a href = 'mailto:sales@gvcpli.com'>
+                    <div id = 'detail'>
+                            <img src = '<?php echo $BASE_URL;?>/Icons/email.png'><br>
+                            <span>info@gvcpli.com</span>
+                        </div>
+                    </a>
+                </div>
+                <div class = 'col-md-2'>
+
                 </div>
             </div>
-            <div6 class = 'col-md-6'>
-     
-            </div>
-        </div>
     </div>
 </section>
-
 <!---- Footer --------------->
 <footer>
     <div id = 'slogan-footer'>

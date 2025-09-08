@@ -20,8 +20,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <?php include 'Scripts/main_css.php'?>
   <?php include 'Scripts/home_css.php'?>
+  <?php include 'Scripts/careers_css.php'?>
   <?php include 'Scripts/header_css.php'?>
   <?php include 'Scripts/footer_css.php'?>
+    <?php include 'Scripts/mobile-header_css.php'?>
   <?php include 'Scripts/error_404_css.php'?>
   <script src = '<?php echo $BASE_URL;?>/Scripts/query-3.4.1.min.js'></script>
 </head>
@@ -29,6 +31,7 @@
     <?php
          if(file_exists("View/".$url[0].".php"))
          {
+            include "Components/mobileHeader.php";
             include "Components/header.php";
             include 'View/'.$url[0].".php";
             include "Components/footer.php";

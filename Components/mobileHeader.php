@@ -1,10 +1,10 @@
-<div id = 'mobile_header'>
-  <div style = 'display : flex'>
-    <div id = 'mobile_logo'>
-       <img src = '<?php echo Router::BASE_URL;?>Icons/logo.jpg'>
+<div id = 'mobile-header'>
+  <div id = 'mobile-header-container'>
+    <div id = 'mobile-logo'>
+       <img src = '<?php $BASE_URL;?>Icons/logo.png'>
     </div>
-    <div id = 'mobile_navi' align = 'right'>
-       <img src = '<?php echo Router::BASE_URL;?>Icons/burg_menu.png' onclick="menuOpenClose(1)">
+    <div id = 'mobile-navi' align = 'right'>
+       <img src = '<?php $BASE_URL;?>Icons/burg_menu.png' onclick="menuOpenClose(1)">
     </div>
   </div>
 </div>
@@ -27,7 +27,7 @@
         <div id = 'link' onclick = "mobileMenuNavigation('#team')">Management Team</div>
         <div id = 'link' onclick = "mobileMenuNavigation('#contacts')">Contacts</div>
     </div>
-    <img src = '<?php echo Router::BASE_URL;?>Icons/logo.jpg' id = 'menu_bottom_logo'>
+    <img src = '<?php echo $BASE_URL;?>Icons/logo.jpg' id = 'menu_bottom_logo'>
 </div>
 
 
