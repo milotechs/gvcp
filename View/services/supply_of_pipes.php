@@ -15,10 +15,10 @@ echo <<<supply_of_pipes
     <!-- Service details with image and description -->
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/pipes.jpg" class="img-fluid rounded" alt="Water Supply Pipes">
+            <img src="{$_GET['BASE_URL']}/bg/water pipe.png" class="img-fluid rounded" alt="Water Supply Pipes">
         </div>
         <div class="col-md-9">
-            <h6>Water Supply Pipes</h6>
+            <b>Water Supply Pipes</b>
             <p>
                 We supply high-quality water pipes suitable for residential, commercial, 
                 and industrial water distribution systems. Our pipes are designed to 
@@ -29,10 +29,10 @@ echo <<<supply_of_pipes
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/pipes.jpg" class="img-fluid rounded" alt="Drainage Pipes">
+            <img src="{$_GET['BASE_URL']}/bg/drainagepipe.jpeg" class="img-fluid rounded" alt="Drainage Pipes">
         </div>
         <div class="col-md-9">
-            <h6>Drainage Pipes</h6>
+            <b>Drainage Pipes</b>
             <p>
                 Our drainage pipes are built for durability and efficiency, making them 
                 ideal for stormwater management and sewage systems. They are resistant 
@@ -43,10 +43,10 @@ echo <<<supply_of_pipes
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/pipes.jpg" class="img-fluid rounded" alt="Construction & Industrial Pipes">
+            <img src="{$_GET['BASE_URL']}/bg/insudtair pipe.jpg" class="img-fluid rounded" alt="Construction & Industrial Pipes">
         </div>
         <div class="col-md-9">
-            <h6>Construction & Industrial Pipes</h6>
+            <b>Construction & Industrial Pipes</b>
             <p>
                 For construction projects and industrial use, we provide heavy-duty pipes 
                 that meet strict engineering standards. These are suitable for large-scale 

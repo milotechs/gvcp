@@ -13,10 +13,10 @@ echo <<<line_boring
     <!-- Service details with image and description -->
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Heavy Machinery Repairs">
+            <img src="{$_GET['BASE_URL']}/bg/images (5).jpeg" class="img-fluid rounded" alt="Heavy Machinery Repairs">
         </div>
         <div class="col-md-9">
-            <h6>Heavy Machinery Repairs</h6>
+            <b>Heavy Machinery Repairs</b>
             <p>
                 Our team performs accurate boring on equipment such as excavators, bulldozers, 
                 loaders, and cranes. This ensures worn parts are repaired with precision, 
@@ -27,10 +27,10 @@ echo <<<line_boring
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Pivot Point Restoration">
+            <img src="{$_GET['BASE_URL']}/bg/images (4).jpeg" class="img-fluid rounded" alt="Pivot Point Restoration">
         </div>
         <div class="col-md-9">
-            <h6>Pivot Point Restoration</h6>
+            <b>Pivot Point Restoration</b>
             <p>
                 We restore worn pivot points and joints, ensuring smooth movement and extended 
                 service life of critical machine components, helping reduce wear and tear 
@@ -41,10 +41,10 @@ echo <<<line_boring
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/line-boring.jpg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
+            <img src="{$_GET['BASE_URL']}/bg/images (3).jpeg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
         </div>
         <div class="col-md-9">
-            <h6>Bearing Housing Rebuilds</h6>
+            <b>Bearing Housing Rebuilds</b>
             <p>
                 Our line boring services include rebuilding and resizing bearing housings 
                 to factory specifications. This ensures proper alignment and performance 

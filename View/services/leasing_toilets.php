@@ -13,10 +13,10 @@ echo <<<leasing_toilets
     <!-- Service details with image and description -->
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/why_choose_us.jpg" class="img-fluid rounded" alt="Event Mobile Toilets">
+            <img src="{$_GET['BASE_URL']}/bg/publick toii.jpg" class="img-fluid rounded" alt="Event Mobile Toilets">
         </div>
         <div class="col-md-9">
-            <h6>Event Mobile Toilets</h6>
+            <b>Event Mobile Toilets</b>
             <p>
                 Perfect for weddings, concerts, festivals, and other outdoor gatherings, 
                 our event mobile toilets provide convenience and cleanliness for large crowds. 
@@ -27,10 +27,10 @@ echo <<<leasing_toilets
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/why_choose_us.jpg" class="img-fluid rounded" alt="Construction Site Toilets">
+            <img src="{$_GET['BASE_URL']}/bg/portable-toilets-dry-closets-construction-site.webp" class="img-fluid rounded" alt="Construction Site Toilets">
         </div>
         <div class="col-md-9">
-            <h6>Construction Site Toilets</h6>
+            <b>Construction Site Toilets</b>
             <p>
                 Our heavy-duty portable toilets are tailored for construction sites, 
                 ensuring that workers have access to clean and durable sanitation facilities 
@@ -41,10 +41,10 @@ echo <<<leasing_toilets
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/why_choose_us.jpg" class="img-fluid rounded" alt="VIP Toilets">
+            <img src="{$_GET['BASE_URL']}/bg/publick toilet.jpeg" class="img-fluid rounded" alt="VIP Toilets">
         </div>
         <div class="col-md-9">
-            <h6>VIP Toilets</h6>
+            <b>VIP Toilets</b>
             <p>
                 For high-profile events and special occasions, we provide VIP mobile toilets 
                 that feature flushing systems, hand-wash stations, mirrors, and enhanced interiors 

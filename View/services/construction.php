@@ -15,10 +15,10 @@
         <!-- Service details with image and description -->
         <div class="row service-detail mt-4">
             <div class="col-md-3">
-                <img src="{$_GET['BASE_URL']}/bg/contact.png" class="img-fluid rounded" alt="Road Construction">
+                <img src="{$_GET['BASE_URL']}/bg/images.jpeg" class="img-fluid rounded" alt="Road Construction">
             </div>
             <div class="col-md-9">
-                <h6>Road Construction</h6>
+                <b>Road Construction</b>
                 <p>
                     We design and build modern roads that enhance connectivity and economic growth. 
                     From highways to rural access roads, our work ensures durability, smooth traffic flow, 
@@ -29,10 +29,10 @@
 
         <div class="row service-detail mt-4">
             <div class="col-md-3">
-                <img src="{$_GET['BASE_URL']}/bg/contact.png" class="img-fluid rounded" alt="House Building">
+                <img src="{$_GET['BASE_URL']}/bg/images (2).jpeg" class="img-fluid rounded" alt="House Building">
             </div>
             <div class="col-md-9">
-                <h6>House Building</h6>
+                <b>House Building</b>
                 <p>
                     Our residential construction services bring your dream home to life. 
                     We handle everything from foundation to finishing, combining modern design 
@@ -43,10 +43,10 @@
 
         <div class="row service-detail mt-6">
             <div class="col-md-3">
-                <img src="{$_GET['BASE_URL']}/bg/contact.png" class="img-fluid rounded" alt="Drainage Development">
+                <img src="{$_GET['BASE_URL']}/bg/images (1).jpeg" class="img-fluid rounded" alt="Drainage Development">
             </div>
             <div class="col-md-9">
-                <h6>Drainage Development</h6>
+                <b>Drainage Development</b>
                 <p>
                     We construct effective drainage systems that protect communities and infrastructure 
                     from flooding and water damage. Our solutions are environmentally friendly 
