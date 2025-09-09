@@ -11,7 +11,7 @@ echo <<<automotive
     </p>
 
     <!-- Service details with image and description -->
-    <div class="row service-detail mt-6">
+    <div class="row service-detail mt-4">
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/spare parts.jpg" class="img-fluid rounded" alt="Engine & Transmission Parts">
         </div>
@@ -38,7 +38,7 @@ echo <<<automotive
         </div>
     </div>
 
-    <div class="row service-detail mt-6">
+    <div class="row service-detail mt-4">
         <div class="col-md-3">
             <img src="{$_GET['BASE_URL']}/bg/accesories.jpg" class="img-fluid rounded" alt="Automotive Accessories">
         </div>
