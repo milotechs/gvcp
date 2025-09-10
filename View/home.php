@@ -138,7 +138,7 @@
                             From engines to brakes and accessories, our wide range ensures quality, timely delivery, and fair pricing. 
                             With us, customers get reliable parts, reduced downtime, and confidence on the road.
                         </p>
-                        <button>Explore</button>
+                        <a href="<?php echo $BASE_URL; ?>/View/services.php?service=automotive" class="btn btn-primary">Explore</a>
                         <hr>
                     </div>
 

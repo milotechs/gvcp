@@ -1,3 +1,24 @@
+<?php 
+
+$service = isset($_GET['service']) ? $_GET['service'] : 'construction';
+
+$serviceFiles = [
+    'construction' => 'services/construction.php',
+    'line_boring' => 'services/line_boring.php',
+    'supply_of_pipes' => 'services/supply_of_pipes.php',
+    'leasing_toilets' => 'services/leasing_toilets.php',
+    'automotive' => 'services/automotive.php'
+];
+
+if (array_key_exists($service, $serviceFiles)) {
+    include($serviceFiles[$service]);
+} else {
+    include($serviceFiles['construction']);
+}
+?>
+<!-- ...existing HTML code below... -->
+?>
+
 <div id = 'home'>
     <div id = 'hero'>
         <div class = 'container'>

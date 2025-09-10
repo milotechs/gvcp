@@ -1,4 +1,6 @@
 <?php
+
+
 echo <<<automotive
     <img class="services-main-pic" src="{$_GET['BASE_URL']}/bg/automotive.jpg"><br>
     <h5 class="section-title">Automotive Spare Parts</h5>
