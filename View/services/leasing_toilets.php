@@ -1,6 +1,19 @@
 <?php
+ // Determine BASE_URL source
+if (isset($BASE_URL)) {
+    // From global variable (direct access)
+    $base = $BASE_URL;
+} elseif (isset($_GET['BASE_URL'])) {
+    // From AJAX call
+    $base = $_GET['BASE_URL'];
+} else {
+    // Fallback
+    $base = "/gvcp";
+}
+
+
 echo <<<leasing_toilets
-    <img class="services-main-pic" src="{$_GET['BASE_URL']}/bg/toilets.jpg"><br>
+    <img class="services-main-pic" src="{$base}/bg/toilets.jpg"><br>
     <h5 class="section-title">Leasing of Mobile Toilets</h5>
     <p>
         Milo Tech Services provides reliable and affordable portable sanitation solutions 
@@ -13,7 +26,7 @@ echo <<<leasing_toilets
     <!-- Service details with image and description -->
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/publick toii.jpg" class="img-fluid rounded" alt="Event Mobile Toilets">
+            <img src="{$base}/bg/publick toii.jpg" class="img-fluid rounded" alt="Event Mobile Toilets">
         </div>
         <div class="col-md-9">
             <b>Event Mobile Toilets</b>
@@ -27,7 +40,7 @@ echo <<<leasing_toilets
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/portable-toilets-dry-closets-construction-site.webp" class="img-fluid rounded" alt="Construction Site Toilets">
+            <img src="{$base}/bg/portable-toilets-dry-closets-construction-site.webp" class="img-fluid rounded" alt="Construction Site Toilets">
         </div>
         <div class="col-md-9">
             <b>Construction Site Toilets</b>
@@ -41,7 +54,7 @@ echo <<<leasing_toilets
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/publick toilet.jpeg" class="img-fluid rounded" alt="VIP Toilets">
+            <img src="{$base}/bg/publick toilet.jpeg" class="img-fluid rounded" alt="VIP Toilets">
         </div>
         <div class="col-md-9">
             <b>VIP Toilets</b>

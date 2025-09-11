@@ -1,5 +1,10 @@
 <?php 
+// Define the base url
+if (!isset($BASE_URL)) {
+    $BASE_URL = "/gvcp";
+}
 
+// Get the service parameter from URL
 $service = isset($_GET['service']) ? $_GET['service'] : 'construction';
 
 $serviceFiles = [
@@ -10,70 +15,65 @@ $serviceFiles = [
     'automotive' => 'services/automotive.php'
 ];
 
-if (array_key_exists($service, $serviceFiles)) {
-    include($serviceFiles[$service]);
-} else {
-    include($serviceFiles['construction']);
+// Validate the service parameter
+if (!array_key_exists($service, $serviceFiles)) {
+    $service = 'construction'; // fallback to default
 }
 ?>
-<!-- ...existing HTML code below... -->
-?>
 
-<div id = 'home'>
-    <div id = 'hero'>
-        <div class = 'container'>
-            <h1>Construction</h1>
+<div id='home'>
+    <div id='hero'>
+        <div class='container'>
+            <h1><?php echo ucfirst(str_replace('_', ' ', $service)); ?> Services</h1> <!-- Dynamic title -->
         </div>
     </div> 
-    <div class = 'container'>
-        <div class = 'row'>
-            <div class = 'col-md-6'>
-                    <div id =  'title'>
-                        <h1 class="section-title">Our Services</h1>
-                        
-                        <p>
-                            
-                        </p>
-                        <div id = 'header-socials'>
-                            <a href = '#about' align = 'left'>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/fb-black.png'>
-                            </a>
-                            <a>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/in-black.png'>
-                            </a>
-                            <a>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/gram-black.png'>
-                            </a>
-                       </div>
-                    </div>
-            </div>  
-       </div>  
-         <!--section of mini header in services-->
-         <section id = 'services-mini-header'>
+    
+    <div class='container'>
+        <!-- ... your existing header code ... -->
+        
+        <section id='services-mini-header'>
             <h2 class="section-header">Our Services</h2>
-            <hr id = 'hr'>
+            <hr id='hr'>
             <div class="row">
                 <div class="col-md-3">
-                        <li> <a onclick="servicesLinks(this,'construction','<?php echo $BASE_URL;?>')">Construction </a></li>
-                        <li><a onclick=" servicesLinks(this,'line_boring','<?php echo $BASE_URL;?>')"> Line Boring</a> </li>
-                        <li> <a onclick="servicesLinks(this,'supply_of_pipes', '<?php echo $BASE_URL;?>')" >Supply of Pipes</a></li>
-                        <li> <a onclick=" servicesLinks(this,'leasing_toilets', '<?php echo $BASE_URL;?>')">Leasing of Mobile Toilets</a></li>
-                        <li> <a onclick=" servicesLinks(this,'automotive', '<?php echo $BASE_URL;?>')">Automotive Spare Parts</a></li>
-                    
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a onclick="servicesLinks(this,'construction','<?php echo $BASE_URL;?>')" <?php echo $service == 'construction' ? 'class="active-link"' : ''; ?>>Construction</a></li>
+                        <li><a onclick="servicesLinks(this,'line_boring','<?php echo $BASE_URL;?>')" <?php echo $service == 'line_boring' ? 'class="active-link"' : ''; ?>>Line Boring</a></li>
+                        <li><a onclick="servicesLinks(this,'supply_of_pipes','<?php echo $BASE_URL;?>')" <?php echo $service == 'supply_of_pipes' ? 'class="active-link"' : ''; ?>>Supply of Pipes</a></li>
+                        <li><a onclick="servicesLinks(this,'leasing_toilets','<?php echo $BASE_URL;?>')" <?php echo $service == 'leasing_toilets' ? 'class="active-link"' : ''; ?>>Leasing of Mobile Toilets</a></li>
+                        <li><a onclick="servicesLinks(this,'automotive','<?php echo $BASE_URL;?>')" <?php echo $service == 'automotive' ? 'class="active-link"' : ''; ?>>Automotive Spare Parts</a></li>
+                    </ul>
                 </div>
                 <div class="col-md-9" id="services-content">
-                            
-                                <img class="services-main-pic" src = '<?php echo $BASE_URL;?>/bg/construction.jpg'><br>
-                                <h5 class="section-title">Construction Services</h5>
-                                <p>
-                                    We provide professional construction services, ranging from 
-                                    building works to civil engineering projects. With a team of 
-                                    skilled experts and access to modern tools and equipment, we 
-                                    deliver projects on time, within budget, and to the highest 
-                                    quality and safety standards.
-                                </p>
-                             
+                    <?php
+                    // Load the selected service content
+                    include($serviceFiles[$service]);
+                    ?>
                 </div>
             </div>
-         </section>
+        </section>
+    </div>
+</div>
+
+<!-- Add this JavaScript to handle initial page load -->
+<script>
+// Function to load service content on page load
+function loadInitialService() {
+    // Get service from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const service = urlParams.get('service') || 'construction';
+    
+    // Highlight the active link
+    $('.col-md-3 li a').removeClass('active-link');
+    $(`a[onclick*="${service}"]`).addClass('active-link');
+}
+
+// Call this on page load
+$(document).ready(function() {
+    loadInitialService();
+});
+</script>
+
+<!-- Include your existing services_js.php -->
+<script src="<?php echo $BASE_URL; ?>/path/to/services_js.php"></script>
          

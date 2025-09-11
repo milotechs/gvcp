@@ -71,6 +71,7 @@
              </div>
         </section>
     </div>
+
     <section id = 'services'>
         <div id = 'services-dark-bg'>
             <div class = 'container'>
@@ -87,7 +88,7 @@
                             deliver projects on time, within budget, and to the highest 
                             quality and safety standards.
                         </p>
-                        <button>Explore</button>
+                        <a href="<?php echo $BASE_URL; ?>/services/construction" class="explore-btn">Explore</a>
                         <hr>
                     </div>
                     <div class = 'col-md-6'>
@@ -99,7 +100,7 @@
                             pivot points, shafts, and bearing housings with precision, 
                             reducing downtime and extending equipment life.
                         </p>
-                        <button>Explore</button>
+                        <a href="<?php echo $BASE_URL; ?>/services/line_boring" class="explore-btn">Explore</a>
                         <hr>
                     </div>
                     <div class = 'col-md-6'>
@@ -112,7 +113,7 @@
                             manufacturers, we ensure quality, reliability, and compliance 
                             with national and international standards.
                         </p>
-                        <button>Explore</button>
+                        <a href="<?php echo $BASE_URL; ?>/services/supply_of_pipes" class="explore-btn">Explore</a>
                         <hr>
                     </div>
                     <div class = 'col-md-6'>
@@ -125,7 +126,7 @@
                             friendly, and maintained to the highest cleanliness standards, 
                             ensuring convenience and comfort for users.
                         </p>
-                        <button>Explore</button>
+                        <a href="<?php echo $BASE_URL; ?>/services/leasing_toilets" class="explore-btn">Explore</a>
                         <hr>
                     </div>
 
@@ -138,7 +139,7 @@
                             From engines to brakes and accessories, our wide range ensures quality, timely delivery, and fair pricing. 
                             With us, customers get reliable parts, reduced downtime, and confidence on the road.
                         </p>
-                        <a href="<?php echo $BASE_URL; ?>/View/services.php?service=automotive" class="btn btn-primary">Explore</a>
+                        <a href="<?php echo $BASE_URL; ?>/services/automotive" class="explore-btn">Explore</a>
                         <hr>
                     </div>
 
@@ -146,6 +147,7 @@
             </div>
         </div>
     </section>
+
     <section  class = 'container'>
              <h1 id = 'section-header'>Why Choose Us?</h1>
              <hr id = 'hr'>

@@ -1,6 +1,18 @@
 <?php
+
+// Determine BASE_URL source
+if (isset($BASE_URL)) {
+    // From global variable (direct access)
+    $base = $BASE_URL;
+} elseif (isset($base)) {
+    // From AJAX call
+    $base = $base;
+} else {
+    // Fallback
+    $base = "/gvcp";
+}
 echo <<<line_boring
-    <img class="services-main-pic" src="{$_GET['BASE_URL']}/bg/line-boring.jpg"><br>
+    <img class="services-main-pic" src="{$base}/bg/line-boring.jpg"><br>
     <h5 class="section-title">Line Boring</h5>
     <p>
         Milo Tech Services specializes in on-site line boring solutions designed to restore 
@@ -13,7 +25,7 @@ echo <<<line_boring
     <!-- Service details with image and description -->
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/images (5).jpeg" class="img-fluid rounded" alt="Heavy Machinery Repairs">
+            <img src="{$base}/bg/images (5).jpeg" class="img-fluid rounded" alt="Heavy Machinery Repairs">
         </div>
         <div class="col-md-9">
             <b>Heavy Machinery Repairs</b>
@@ -27,7 +39,7 @@ echo <<<line_boring
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/images (4).jpeg" class="img-fluid rounded" alt="Pivot Point Restoration">
+            <img src="{$base}/bg/images (4).jpeg" class="img-fluid rounded" alt="Pivot Point Restoration">
         </div>
         <div class="col-md-9">
             <b>Pivot Point Restoration</b>
@@ -41,7 +53,7 @@ echo <<<line_boring
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/images (3).jpeg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
+            <img src="{$base}/bg/images (3).jpeg" class="img-fluid rounded" alt="Bearing Housing Rebuilds">
         </div>
         <div class="col-md-9">
             <b>Bearing Housing Rebuilds</b>

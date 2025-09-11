@@ -74,6 +74,9 @@
     padding : 2mm 6mm;
     border-radius: 1mm;
   }
+
+  
+  
   #services h5{
     color: white;
     font-size: 5mm;
@@ -87,6 +90,12 @@
   #services p
   {
     font-weight: 200;
+  }
+
+  #services a{
+    color: white;
+    text-decoration: none;
+    backgroud-color:#000;
   }
 
   #services-dark-bg
@@ -109,7 +118,23 @@
      border-radius: 2mm;
      margin-bottom : 3mm
    }
+.explore-btn {
+    background-color: #E7863CFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
 
+.explore-btn:hover {
+    background-color: #C45907FF;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
    /* --------- why choose us ---------*/
     #why-choose-img img
     {

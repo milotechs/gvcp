@@ -43,5 +43,7 @@
         color:#E7863CFF !important;
         font-weight: bold;
     } 
-
+    .btn btn-primary{
+        color:color:#E7863CFF;
+    }
 </style>

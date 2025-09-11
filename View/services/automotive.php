@@ -1,8 +1,14 @@
 <?php
-
-
+//get BASE_URL from eithr the global or GRET pararmeter
+if (isset($BASE_URL)){
+    $base = $BASE_URL;
+} elseif (isset($_GEt['BASE_URL'])){
+    $base = $_GET['BASE_URL'];
+} else{
+    $base = "/gvcp"; //fallback
+}
 echo <<<automotive
-    <img class="services-main-pic" src="{$_GET['BASE_URL']}/bg/automotive.jpg"><br>
+    <img class="services-main-pic" src="{$base}/bg/automotive.jpg"><br>
     <h5 class="section-title">Automotive Spare Parts</h5>
     <p>
         At Milo Tech Services, we supply a wide range of genuine and durable automotive spare parts 
@@ -15,7 +21,7 @@ echo <<<automotive
     <!-- Service details with image and description -->
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/spare parts.jpg" class="img-fluid rounded" alt="Engine & Transmission Parts">
+            <img src="{$base}/bg/spare parts.jpg" class="img-fluid rounded" alt="Engine & Transmission Parts">
         </div>
         <div class="col-md-9">
             <b>Engine & Transmission Parts</b>
@@ -29,7 +35,7 @@ echo <<<automotive
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/brake.jpg" class="img-fluid rounded" alt="Brake Systems & Suspension">
+            <img src="{$base}/bg/brake.jpg" class="img-fluid rounded" alt="Brake Systems & Suspension">
         </div>
         <div class="col-md-9">
             <b>Brake Systems & Suspension</b>
@@ -42,7 +48,7 @@ echo <<<automotive
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/accesories.jpg" class="img-fluid rounded" alt="Automotive Accessories">
+            <img src="{$base}/bg/accesories.jpg" class="img-fluid rounded" alt="Automotive Accessories">
         </div>
         <div class="col-md-9">
             <b>Automotive Accessories</b>

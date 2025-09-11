@@ -1,6 +1,19 @@
 <?php
+// Detebaseource
+
+// Determine BASE_URL source
+if (isset($BASE_URL)) {
+    // From global variable (direct access)
+    $base = $BASE_URL;
+} elseif (isset($_GET['BASE_URL'])) {
+    // From AJAX call
+    $base = $_GET['BASE_URL'];
+} else {
+    // Fallback
+    $base = "/gvcp";
+}
    echo <<<construction
-        <img class="services-main-pic" src="{$_GET['BASE_URL']}/bg/construction.jpg"><br>
+        <img class="services-main-pic" src="{$base}/bg/construction.jpg"><br>
         <h5 class="section-title">Construction Services</h5>
         <p>
             At Milo Tech Services, we provide comprehensive and professional construction services 
@@ -15,7 +28,7 @@
         <!-- Service details with image and description -->
         <div class="row service-detail mt-4">
             <div class="col-md-3">
-                <img src="{$_GET['BASE_URL']}/bg/images.jpeg" class="img-fluid rounded" alt="Road Construction">
+                <img src="{$base}/bg/images.jpeg" class="img-fluid rounded" alt="Road Construction">
             </div>
             <div class="col-md-9">
                 <b>Road Construction</b>
@@ -29,7 +42,7 @@
 
         <div class="row service-detail mt-4">
             <div class="col-md-3">
-                <img src="{$_GET['BASE_URL']}/bg/images (2).jpeg" class="img-fluid rounded" alt="House Building">
+                <img src="{$base}/bg/images (2).jpeg" class="img-fluid rounded" alt="House Building">
             </div>
             <div class="col-md-9">
                 <b>House Building</b>
@@ -43,7 +56,7 @@
 
         <div class="row service-detail mt-6">
             <div class="col-md-3">
-                <img src="{$_GET['BASE_URL']}/bg/images (1).jpeg" class="img-fluid rounded" alt="Drainage Development">
+                <img src="{$base}/bg/images (1).jpeg" class="img-fluid rounded" alt="Drainage Development">
             </div>
             <div class="col-md-9">
                 <b>Drainage Development</b>

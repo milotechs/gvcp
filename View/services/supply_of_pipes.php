@@ -1,7 +1,19 @@
 
 <?php
+
+// Determine BASE_URL source
+if (isset($BASE_URL)) {
+    // From global variable (direct access)
+    $base = $BASE_URL;
+} elseif (isset($_GET['BASE_URL'])) {
+    // From AJAX call
+    $base = $_GET['BASE_URL'];
+} else {
+    // Fallback
+    $base = "/gvcp";
+}
 echo <<<supply_of_pipes
-    <img class="services-main-pic" src="{$_GET['BASE_URL']}/bg/pipes.jpg"><br>
+    <img class="services-main-pic" src="{$base}/bg/pipes.jpg"><br>
     <h5 class="section-title">Supply of Pipes</h5>
     <p>
         Milo Tech Services provides a wide range of durable, industry-standard pipes 
@@ -15,7 +27,7 @@ echo <<<supply_of_pipes
     <!-- Service details with image and description -->
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/water pipe.png" class="img-fluid rounded" alt="Water Supply Pipes">
+            <img src="{$base}/bg/water pipe.png" class="img-fluid rounded" alt="Water Supply Pipes">
         </div>
         <div class="col-md-9">
             <b>Water Supply Pipes</b>
@@ -29,7 +41,7 @@ echo <<<supply_of_pipes
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/drainagepipe.jpeg" class="img-fluid rounded" alt="Drainage Pipes">
+            <img src="{$base}/bg/drainagepipe.jpeg" class="img-fluid rounded" alt="Drainage Pipes">
         </div>
         <div class="col-md-9">
             <b>Drainage Pipes</b>
@@ -43,7 +55,7 @@ echo <<<supply_of_pipes
 
     <div class="row service-detail mt-4">
         <div class="col-md-3">
-            <img src="{$_GET['BASE_URL']}/bg/insudtair pipe.jpg" class="img-fluid rounded" alt="Construction & Industrial Pipes">
+            <img src="{$base}/bg/insudtair pipe.jpg" class="img-fluid rounded" alt="Construction & Industrial Pipes">
         </div>
         <div class="col-md-9">
             <b>Construction & Industrial Pipes</b>
