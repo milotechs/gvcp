@@ -5,7 +5,7 @@ if (!isset($BASE_URL)) {
 }
 
 // Get the service parameter from URL
-$service = isset($_GET['service']) ? $_GET['service'] : 'construction';
+$service = isset($url[1]) ? $url[1] : 'construction';
 
 $serviceFiles = [
     'construction' => 'services/construction.php',
@@ -41,13 +41,22 @@ if (!array_key_exists($service, $serviceFiles)) {
                         <li><a onclick="servicesLinks(this,'line_boring','<?php echo $BASE_URL;?>')" <?php echo $service == 'line_boring' ? 'class="active-link"' : ''; ?>>Line Boring</a></li>
                         <li><a onclick="servicesLinks(this,'supply_of_pipes','<?php echo $BASE_URL;?>')" <?php echo $service == 'supply_of_pipes' ? 'class="active-link"' : ''; ?>>Supply of Pipes</a></li>
                         <li><a onclick="servicesLinks(this,'leasing_toilets','<?php echo $BASE_URL;?>')" <?php echo $service == 'leasing_toilets' ? 'class="active-link"' : ''; ?>>Leasing of Mobile Toilets</a></li>
-                        <li><a onclick="servicesLinks(this,'automotive','<?php echo $BASE_URL;?>')" <?php echo $service == 'automotive' ? 'class="active-link"' : ''; ?>>Automotive Spare Parts</a></li>
+                        <li><a onclick="servicesLinks(this,'automotive','<?php echo $BASE_URL;?>')">Automotive Spare Parts</a></li>
                     </ul>
                 </div>
                 <div class="col-md-9" id="services-content">
                     <?php
                     // Load the selected service content
-                    include($serviceFiles[$service]);
+                            if(file_exists("View/services/".$url[1].".php"))
+                            {
+                                
+                                include 'View/services/'.$url[1].".php";
+                                
+                            }
+                            else
+                            {
+                             echo "404/error_404.php";
+                            }
                     ?>
                 </div>
             </div>

@@ -3,6 +3,17 @@
   $url = explode("/",$_SERVER['QUERY_STRING']);
   $BASE_URL = "/gvcp";
   $db = new Database();
+
+//handle services :
+if ($url[0] === 'services' && isset($url[1])) {
+    $page = 'services'; // Load services.php
+    $_GET['service'] = $url[1]; // Pass the service parameter
+} else {
+    $page = $url[0] ?: 'home'; // Default to home
+}
+
+
+  
 ?>
 <!DOCTYPE html>
 <html lang="en">
