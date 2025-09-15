@@ -10,7 +10,7 @@
             <a href = '<?php echo $BASE_URL;?>/about' align = 'left'>
                 About
             </a>
-            <a href = '<?php echo $BASE_URL;?>/services/construction' align = 'left'>
+            <a href = '<?php echo $BASE_URL;?>/services/' align = 'left'>
                 Services
             </a>
             
