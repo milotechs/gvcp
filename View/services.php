@@ -2,6 +2,7 @@
 // Define the base url
 if (!isset($BASE_URL)) {
     $BASE_URL = "/gvcp";
+
 }
 
 // Get the service parameter from URL
@@ -81,6 +82,9 @@ function loadInitialService() {
 $(document).ready(function() {
     loadInitialService();
 });
+
+
+$(`a[onclick="servicesLinks(this,<?php echo $url[1]; ?>, '<?php echo $BASE_URL; ?>')"]`).addClass('active-link');</script>;
 </script>
 
 <!-- Include your existing services_js.php -->
