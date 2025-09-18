@@ -116,6 +116,7 @@
                         <a href="<?php echo $BASE_URL; ?>/services/supply_of_pipes" class="explore-btn">Explore</a>
                         <hr>
                     </div>
+
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/toilets.jpg'><br>
                         <h5 class="section-title">Leasing of Mobile Toilets</h5>
@@ -127,6 +128,34 @@
                             ensuring convenience and comfort for users.
                         </p>
                         <a href="<?php echo $BASE_URL; ?>/services/leasing_toilets" class="explore-btn">Explore</a>
+                        <hr>
+                    </div>
+                     <!--busing services-->
+                     <div class = 'col-md-6'>
+                        <img src = '<?php echo $BASE_URL;?>/bg/bus.jpg'><br>
+                        <h5 class="section-title">Busing Services</h5>
+                        <p>
+                            We supply and lease portable sanitation units designed 
+                            for construction sites, outdoor events, and other temporary
+                            facilities. Our mobile toilets are hygienic, environmentally 
+                            friendly, and maintained to the highest cleanliness standards, 
+                            ensuring convenience and comfort for users.
+                        </p>
+                        <a href="<?php echo $BASE_URL; ?>/services/busing_service" class="explore-btn">Explore</a>
+                        <hr>
+                    </div>
+                    <!--medium machine-->
+                    <div class = 'col-md-6'>
+                        <img src = '<?php echo $BASE_URL;?>/bg/heavy-excavator.jpg'><br>
+                        <h5 class="section-title">Leasing Of Medium Sized Machine</h5>
+                        <p>
+                            At GVCP, we are committed to providing safe, reliable, and 
+                            efficient bussing services tailored to meet the diverse 
+                            transportation needs of our clients. Whether it is for schools, 
+                            companies, events, or community activities, we ensure that people are 
+                            transported comfortably and on time. 
+                        </p>
+                        <a href="<?php echo $BASE_URL; ?>/services/medium_machine" class="explore-btn">Explore</a>
                         <hr>
                     </div>
 
