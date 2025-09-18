@@ -1,37 +1,53 @@
 <style>
-  #hero
+  #home #hero
   {
-    height : 400px;
     background-position: center;
     background-size: cover;
+    transition: 0.5s ease;
     background-repeat: no-repeat;
-    background-image: url('/gvcp/bg/construction_bg.jpg');
+    background-image: url('/gvcp/bg/construction-home-bg.jpg');
   }
 
-  #title
-  { 
-    background-color: white; 
-    min-height : 200px;
-    position: absolute;
-    width : 70%;
-    padding : 10mm ;
-    top : -6cm;
-    border-radius: 2mm;
-    border : lightgray 0.2mm solid;
-    box-shadow: 5px 2px 10px 2px  rgb(0,0,0,0.1); 
+  #home #dark-bg
+  {
+    padding : 5cm 0mm 3cm; 
   }
 
-   #title h1
-   {
-     font-size: 7mm;
-     font-weight: 200;
-   }
+  #num-bg
+  {
+    display : none;
+  }
+
+  #dark-bg hr
+  {
+    background-color : orange;
+    transition: 0.5s;
+    height : 0.25mm;
+  }
+
+  #hero-header-title
+  {
+    overflow : hidden;
+    height : 40px;
+  }
+
+  #hero p
+  {
+    transition: 0.3s;
+  }
+
+  #hero h1
+  {
+    font-size: 7mm;
+    font-weight: 500;
+    transition: 0.3s;
+  }
 
    /* --------- why choose us/ core values---------*/
  
    #core-values
    {
-      margin-top: 6cm; 
+      margin-top: 2cm; 
    }
 
    #why-choose-us img, 
@@ -115,32 +131,41 @@
 
     
    /* --------- Cathy-text ---------*/
-   #catchy-text
+ 
+   #catchy-section 
    {
-      background-color: black;
-      color : white;
-      padding : 4cm 10mm; 
+      background-color: rgb(250,250,250);
+      padding : 2cm 0mm;
+      color : black;
+      font-weight: 200;
+      border: 0.2mm solid lightgray
    }
 
-  #catchy-text h1
+   #catchy-section hr 
+   {
+     background-color: orange;
+     height : 0.2mm;
+     border-radius: 10mm;
+   }
+
+   #catchy-section img
+   {
+      width : 100%;
+      height : 200px;
+      object-fit: cover;
+      box-shadow : 2px 6px 10px 2px rgb(255,255,255,0.1);
+      margin-bottom: 5mm;
+      border-radius : 2mm;
+   }
+
+  #catchy-section h1
   {
      font-size : 1cm;
      font-weight: 300;
   }
-
-  #catchy-text p
-  {
-     font-weight: 200;
-  }
-
-   #catchy-pic
-   {
-     background-image: url('/gvcp/bg/man_bg.jpg'); 
-     background-position: center;
-     background-size: cover;
-   }
    
-   /*contact us */
+   /*----------contact us -----------------------*/
+   
    #contact-us-pic img
    {
     width : 100%;
@@ -179,6 +204,30 @@
    {
      text-decoration : none;
      color : black;
+   }
+
+   @media only screen and (max-width : 991px) 
+   {
+      #title
+      {
+        position : static;
+        width : 100%;
+      }
+
+      #why-choose-us
+      {
+        text-align: center;
+      }
+
+      footer 
+      {
+        text-align : center;
+      }
+
+      footer hr
+      {
+         width : 70%;
+      }
    }
 
 

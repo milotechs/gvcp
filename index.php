@@ -23,8 +23,9 @@
   <?php include 'Scripts/careers_css.php'?>
   <?php include 'Scripts/header_css.php'?>
   <?php include 'Scripts/footer_css.php'?>
-    <?php include 'Scripts/mobile-header_css.php'?>
+  <?php include 'Scripts/mobile-header_css.php'?>
   <?php include 'Scripts/error_404_css.php'?>
+  <?php include 'Scripts/chat_css.php'?>
   <script src = '<?php echo $BASE_URL;?>/Scripts/query-3.4.1.min.js'></script>
 </head>
   <body>
@@ -34,14 +35,19 @@
             include "Components/mobileHeader.php";
             include "Components/header.php";
             include 'View/'.$url[0].".php";
+            include "Components/chat.php";
             include "Components/footer.php";
          }
          else
          {
            include "404/error_404.php";
          }
+          
          include 'Scripts/main_js.php';
+         include 'Scripts/careers_js.php';
          include 'Scripts/footer_js.php';
+         include 'Scripts/header_js.php';
+         include 'Scripts/chat_js.php';
     ?> 
   </body>
 

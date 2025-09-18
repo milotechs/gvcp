@@ -1,21 +1,36 @@
 <style>
-    #catchy-pic-vacancy
+    #careers
     {
-     background-image: url('<?php echo $BASE_URL ?>/bg/vacancy.jpg');
-     background-size : cover;
-     background-position: center ;
+      color : black
     }
 
-    #vacancies h5
+    #careers #hero-2
     {
-       color : rgb(200,200,200);
-       font-size :2cm;
-       text-align: center;
-       padding :  1cm 0mm 6cm;
+      background-image: url('<?php echo $BASE_URL; ?>/bg/about-us.jpg');
+      background-size: cover;
+      background-position: center;
     }
 
-    #vacancies 
+    #page-header-info
     {
-      margin-top : 6cm;
+       padding : 10mm 0mm;
+       border-radius : 1mm;
+       margin : 1cm 0mm ;
     }
+
+    #page-header-info img
+    {
+      width : 70%;
+      height : auto;
+    }
+    
+    #careers button
+    {
+      background-color: orange;
+      padding : 2mm 20mm ;
+      border : none;
+      border-radius : 1mm;
+      box-shadow : 2px 3px 10px 2px rgb(0,0,0,0.2);
+    }
+
 </style>

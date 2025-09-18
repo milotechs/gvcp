@@ -19,25 +19,49 @@
   #menu
   {
     position : fixed;
-    width : 100%;
+    width : 0%;
     height : 100%;
+    left: 0;
     z-index : 5;
     background-color: white;
+    overflow: hidden;
+  }
+
+  #menu, #menu div
+  {
+     transition : 0.5s;
   }
 
   #menu_header
   {
-    padding : 2mm 5mm;
+    padding : 5mm 8mm;
     display : flex;
     justify-content : space-between
   }
 
-  #menu_links
+  #menu_header div:nth-child(2) span
   {
-    padding : 2mm 5mm;
+    color : red;
   }
 
-   #mobile-navi img
+  #menu span
+  {
+    font-size : 6mm;
+    font-weight: 900; 
+  }
+
+  #menu_links
+  {
+    padding : 2mm 8mm;
+  }
+
+  #link  
+  {
+    border-top: rgb(0,0,0,0.1) solid 0.2mm;
+    padding : 3mm 0mm
+  }
+
+  #mobile-navi img
   {
     width: 45px;
     height : auto;
@@ -51,16 +75,14 @@
     justify-content: space-between;
   }
 
-  @media only screen and (max-width : 991px) 
+  #menu_bottom_logo
   {
-    header
-    {
-      display : none;
-    }
-     #mobile-header
-    {
-      display : block;
-    }
+    width : 80px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    bottom : 5%;
+    left : 50%;
+    transition : 0.5s
   }
 
 </style>

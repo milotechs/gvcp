@@ -1,38 +1,26 @@
 <div id = 'home'>
     <div id = 'hero'>
-        <div class = 'container'>
+        <div id = 'dark-bg'>
+            <div class = 'container'>
+                 <span id = 'num-bg'>0</span>
+                 <div id = 'hero-header-title'>
+                    <h1>Construction with Integrity</h1>
+                 </div>
+                <hr>
+                <div id = 'hero-home-text'>
+                    <p>
+                        GVCP provides a wide range of construction
+                        services designed to meet the needs of clients
+                        in residential, commercial, and industrial 
+                        sectors. The company focuses on delivering high-quality,
+                        cost-effective, and sustainable solutions while maintaining 
+                        strict safety and quality standards.
+                    </p>
+                </div>
+            </div>
         </div>
     </div> 
     <div class = 'container'>
-        <div class = 'row'>
-            <div class = 'col-md-6'>
-                    <div id =  'title'>
-                        <h1>Construction with integrity</h1>
-                        <hr>
-                        <p>
-                            GVCP provides a wide range of construction
-                            services designed to meet the needs of clients
-                            in residential, commercial, and industrial 
-                            sectors. The company focuses on delivering high-quality,
-                            cost-effective, and sustainable solutions while maintaining 
-                            strict safety and quality standards.
-                        </p>
-                        <div id = 'header-socials'>
-                            <a href = '#about' align = 'left'>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/fb-black.png'>
-                            </a>
-                            <a>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/in-black.png'>
-                            </a>
-                            <a>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/gram-black.png'>
-                            </a>
-                       </div>
-                    </div>
-            </div>
-            <div class = 'col-md-6'>
-            </div>
-        </div>
         <section id = 'core-values'>
              <h1 id = 'section-header'>Core Values</h1>
              <hr id = 'hr'>
@@ -165,27 +153,101 @@
                     </div>
                 </div>
     </section>
-    <section> 
-        <div class = 'container-fluid'>
+    <section id = 'catchy-section'> 
+        <div class = 'container'>
+            <h1>Investing in Quality That Lasts</h1>
+            <hr><br>
             <div class = 'row'>
-                <div class = 'col-md-7' id = 'catchy-pic'>
-                            
+                <div class = 'col-md-4' id = 'catchy-pic'>
+                    <img src = '<?php echo $BASE_URL;?>/bg/vacancy.jpg'>
                 </div>
-                <div class = 'col-md-5' id = 'catchy-text'>
-                     <h1>Investing in Quality That Lasts</h1>
-                     <hr id = 'hr'>
-                     <p>
-                         Choosing our company means more than just hiring a service provider — it’s 
-                         about securing precision, durability, and reliability for your projects. 
-                         When customers pay for our construction and line boring services, they are 
-                         investing in quality workmanship, advanced technology, and solutions built to 
-                         last. Every payment ensures that we deliver projects on time, maintain the highest 
-                         safety standards, and provide tailored solutions that meet your exact needs. With us, 
-                         you don’t just pay for a service — you pay for peace of mind, long-term value, 
-                         and a trusted partner committed to building your success
-                     </p>
+                <div class = 'col-md-8' id = 'catchy-text'>
+                    <p>
+                        Choosing our company means more than just hiring a service provider — it’s 
+                        about securing precision, durability, and reliability for your projects. 
+                        When customers pay for our construction and line boring services, they are 
+                        investing in quality workmanship, advanced technology, and solutions built to 
+                        last
+                    </p>
+                </div>
+                <div class = 'col-md-4' id = 'catchy-pic'>
+                    <img src = '<?php echo $BASE_URL;?>/bg/man_bg.jpg'>
+                </div>
+                <div class = 'col-md-8' id = 'catchy-text'>
+                    <p>
+                        Every payment ensures that we deliver projects on time, maintain the highest 
+                        safety standards, and provide tailored solutions that meet your exact needs. With us, 
+                        you don’t just pay for a service — you pay for peace of mind, long-term value, 
+                        and a trusted partner committed to building your success
+                    </p>
                 </div>
             </div>
+            <br>
         </div>
     </section>
 </div>
+
+<script>
+    setInterval(function()
+    {
+       num = Number($('#num-bg').text());
+       pics = ['bussing.jpg',
+               'toilets.jpg',
+               'auto-repair-2.jpg',
+               'construction-home-bg.jpg',
+              ];
+
+      header = ['Bussing People Safely',
+                'Leasing Mobile Toilets',
+                'Repairing Vehicles Reliably',
+                'Construction with Integrity',
+              ];
+
+       text = [`We provide premium bussing services for schools, 
+                corporate clients, events, and community transit. Our mission 
+                is to deliver safe, reliable, and comfortable transport solutions 
+                tailored to the needs of our customers.`,
+
+               `GVCP is a trusted provider of mobile toilet leasing solutions, dedicated
+                to delivering clean, convenient, and reliable sanitation facilities for a 
+                wide range of clients and events. We understand the importance of hygiene 
+                and comfort, and our services are designed to meet both short-term and long-term needs`,
+
+               `GVCP provides professional automotive repair and maintenance services designed to keep 
+                vehicles running safely, efficiently, and for longer. Our team of skilled technicians 
+                combines technical expertise with modern diagnostic tools to deliver trusted repair solutions 
+                for individuals, businesses, and fleets.`,
+                
+               `GVCP provides a wide range of construction
+                services designed to meet the needs of clients
+                in residential, commercial, and industrial 
+                sectors. The company focuses on delivering high-quality,
+                cost-effective, and sustainable solutions while maintaining 
+                strict safety and quality standards`,
+              ];
+    
+       $('#hero').css('background-image',"url('<?php echo $BASE_URL;?>/bg/"+pics[num]+"')");
+       $('#hero p').css('opacity','0');
+       $('#hero hr').css('width','0px');
+       $('#hero h1').css('margin-top','5cm');
+
+       setTimeout(function(){
+         $('#hero h1').text(''+header[num]);
+         $('#hero p').text(''+text[num]);
+         $('#hero p').css('opacity','1');
+         $('#hero h1').css('margin-top','0cm');
+         $('#hero hr').css('width','100%');
+       },1000);
+
+       nums = num + 1;
+       if(nums > pics.length - 1)
+       {
+         $('#num-bg').text("0");
+       }
+       else
+       {
+         $('#num-bg').text(""+nums);
+       }
+    },5000);
+</script>
+
