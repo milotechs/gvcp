@@ -3,17 +3,6 @@
   $url = explode("/",$_SERVER['QUERY_STRING']);
   $BASE_URL = "/gvcp";
   $db = new Database();
-
-//handle services :
-if ($url[0] === 'services' && isset($url[1])) {
-    $page = 'services'; // Load services.php
-    $_GET['service'] = $url[1]; // Pass the service parameter
-} else {
-    $page = $url[0] ?: 'home'; // Default to home
-}
-
-
-  
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,28 +20,34 @@ if ($url[0] === 'services' && isset($url[1])) {
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <?php include 'Scripts/main_css.php'?>
   <?php include 'Scripts/home_css.php'?>
+  <?php include 'Scripts/careers_css.php'?>
   <?php include 'Scripts/header_css.php'?>
   <?php include 'Scripts/footer_css.php'?>
+  <?php include 'Scripts/mobile-header_css.php'?>
   <?php include 'Scripts/error_404_css.php'?>
-  <?php include 'Scripts/about_css.php'?>
-  <?php include 'Scripts/services_cs.php'?>
+  <?php include 'Scripts/chat_css.php'?>
   <script src = '<?php echo $BASE_URL;?>/Scripts/query-3.4.1.min.js'></script>
 </head>
   <body>
     <?php
          if(file_exists("View/".$url[0].".php"))
          {
+            include "Components/mobileHeader.php";
             include "Components/header.php";
             include 'View/'.$url[0].".php";
+            include "Components/chat.php";
             include "Components/footer.php";
          }
          else
          {
            include "404/error_404.php";
          }
+          
          include 'Scripts/main_js.php';
+         include 'Scripts/careers_js.php';
          include 'Scripts/footer_js.php';
-         include 'Scripts/services_js.php';
+         include 'Scripts/header_js.php';
+         include 'Scripts/chat_js.php';
     ?> 
   </body>
 

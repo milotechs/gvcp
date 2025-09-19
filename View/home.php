@@ -1,39 +1,26 @@
 <div id = 'home'>
     <div id = 'hero'>
-        <div class = 'container'>
-            <h1>Construction</h1>
+        <div id = 'dark-bg'>
+            <div class = 'container'>
+                 <span id = 'num-bg'>0</span>
+                 <div id = 'hero-header-title'>
+                    <h1>Construction with Integrity</h1>
+                 </div>
+                <hr>
+                <div id = 'hero-home-text'>
+                    <p>
+                        GVCP provides a wide range of construction
+                        services designed to meet the needs of clients
+                        in residential, commercial, and industrial 
+                        sectors. The company focuses on delivering high-quality,
+                        cost-effective, and sustainable solutions while maintaining 
+                        strict safety and quality standards.
+                    </p>
+                </div>
+            </div>
         </div>
     </div> 
     <div class = 'container'>
-        <div class = 'row'>
-            <div class = 'col-md-6'>
-                    <div id =  'title'>
-                        <h1 class="section-title">Construction with integrity</h1>
-                        
-                        <p>
-                            GVCP provides a wide range of construction
-                            services designed to meet the needs of clients
-                            in residential, commercial, and industrial 
-                            sectors. The company focuses on delivering high-quality,
-                            cost-effective, and sustainable solutions while maintaining 
-                            strict safety and quality standards.
-                        </p>
-                        <div id = 'header-socials'>
-                            <a href = '#about' align = 'left'>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/fb-black.png'>
-                            </a>
-                            <a>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/in-black.png'>
-                            </a>
-                            <a>
-                              <img src = '<?php echo $BASE_URL;?>/Icons/gram-black.png'>
-                            </a>
-                       </div>
-                    </div>
-            </div>
-            <div class = 'col-md-6'>
-            </div>
-        </div>
         <section id = 'core-values'>
              <h1 id = 'section-header'>Core Values</h1>
              <hr id = 'hr'>
@@ -71,7 +58,6 @@
              </div>
         </section>
     </div>
-
     <section id = 'services'>
         <div id = 'services-dark-bg'>
             <div class = 'container'>
@@ -80,7 +66,7 @@
                 <div class = 'row'>
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/construction.jpg'><br>
-                        <h5 class="section-title">Construction Services</h5>
+                        <b>Construction Services</b>
                         <p>
                             We provide professional construction services, ranging from 
                             building works to civil engineering projects. With a team of 
@@ -88,24 +74,24 @@
                             deliver projects on time, within budget, and to the highest 
                             quality and safety standards.
                         </p>
-                        <a href="<?php echo $BASE_URL; ?>/services/construction" class="explore-btn">Explore</a>
+                        <button>Explore</button>
                         <hr>
                     </div>
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/line-boring.jpg'><br>
-                        <h5 class="section-title">Line Boring</h5>
+                        <b>Line Boring</b>
                         <p>
                             We offer on-site line boring to repair worn or misaligned
                             bores in heavy machinery. Using portable machines, we restore
                             pivot points, shafts, and bearing housings with precision, 
                             reducing downtime and extending equipment life.
                         </p>
-                        <a href="<?php echo $BASE_URL; ?>/services/line_boring" class="explore-btn">Explore</a>
+                        <button>Explore</button>
                         <hr>
                     </div>
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/pipes.jpg'><br>
-                        <h5 class="section-title">Supply of Pipes</h5>
+                        <b>Supply of Pipes</b>
                         <p>
                             We supply durable and industry-standard pipes suitable 
                             for a wide range of applications, including water supply, 
@@ -113,13 +99,12 @@
                             manufacturers, we ensure quality, reliability, and compliance 
                             with national and international standards.
                         </p>
-                        <a href="<?php echo $BASE_URL; ?>/services/supply_of_pipes" class="explore-btn">Explore</a>
+                        <button>Explore</button>
                         <hr>
                     </div>
-
                     <div class = 'col-md-6'>
                         <img src = '<?php echo $BASE_URL;?>/bg/toilets.jpg'><br>
-                        <h5 class="section-title">Leasing of Mobile Toilets</h5>
+                        <b>Leasing of Mobile Toilets</b>
                         <p>
                             We supply and lease portable sanitation units designed 
                             for construction sites, outdoor events, and other temporary
@@ -127,101 +112,142 @@
                             friendly, and maintained to the highest cleanliness standards, 
                             ensuring convenience and comfort for users.
                         </p>
-                        <a href="<?php echo $BASE_URL; ?>/services/leasing_toilets" class="explore-btn">Explore</a>
+                        <button>Explore</button>
                         <hr>
                     </div>
-                     <!--busing services-->
-                     <div class = 'col-md-6'>
-                        <img src = '<?php echo $BASE_URL;?>/bg/bus.jpg'><br>
-                        <h5 class="section-title">Busing Services</h5>
-                        <p>
-                            We supply and lease portable sanitation units designed 
-                            for construction sites, outdoor events, and other temporary
-                            facilities. Our mobile toilets are hygienic, environmentally 
-                            friendly, and maintained to the highest cleanliness standards, 
-                            ensuring convenience and comfort for users.
-                        </p>
-                        <a href="<?php echo $BASE_URL; ?>/services/busing_service" class="explore-btn">Explore</a>
-                        <hr>
-                    </div>
-                    <!--medium machine-->
-                    <div class = 'col-md-6'>
-                        <img src = '<?php echo $BASE_URL;?>/bg/heavy-excavator.jpg'><br>
-                        <h5 class="section-title">Leasing Of Medium Sized Machine</h5>
-                        <p>
-                            At GVCP, we are committed to providing safe, reliable, and 
-                            efficient bussing services tailored to meet the diverse 
-                            transportation needs of our clients. Whether it is for schools, 
-                            companies, events, or community activities, we ensure that people are 
-                            transported comfortably and on time. 
-                        </p>
-                        <a href="<?php echo $BASE_URL; ?>/services/medium_machine" class="explore-btn">Explore</a>
-                        <hr>
-                    </div>
-
-                     <!--added -->
-                     <div class = 'col-md-6'>
-                        <img src = '<?php echo $BASE_URL;?>/bg/automotive.jpg'><br>
-                        <h5 class="section-title">Automotive Spare Parts</h5>
-                        <p>
-                            We provide genuine, durable automotive spare parts that keep vehicles running smoothly and safely. 
-                            From engines to brakes and accessories, our wide range ensures quality, timely delivery, and fair pricing. 
-                            With us, customers get reliable parts, reduced downtime, and confidence on the road.
-                        </p>
-                        <a href="<?php echo $BASE_URL; ?>/services/automotive" class="explore-btn">Explore</a>
-                        <hr>
-                    </div>
-
+                    
                 </div>
             </div>
         </div>
     </section>
-
-    <section  class = 'container'>
-             <h1 id = 'section-header'>Why Choose Us?</h1>
-             <hr id = 'hr'>
-             <div class = 'row'>
+    <section class = 'container'>
+            <h1 id = 'section-header'>Why Choose Us?</h1>
+            <hr id = 'hr'>
+            <div class = 'row'>
                 <div class='col-md-6' id='why-choose-img'>
-                    <img src = '<?php echo $BASE_URL;?>/bg/why_choose_us.jpg'>
+                    <img src = '<?php echo $BASE_URL;?>/bg/why_choose_us.png'>
                 </div>
-                <div class='col-md-6'  id='why-choose-us'>
-                    <div class="row">
-                        <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/integrity.png'><br>
-                     <b>Integrity</b>
-                     <p>We conduct our business with honesty and transparency.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/rely.png'><br>
-                     <b>Relaibility</b>
-                     <p>We deliver services and products on time and to specification.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/innovate.png'><br>
-                      <b>Innovation</b>
-                     <p>We embrace modern technologies and methods to improve efficiency.</p>
-                </div>
-                   <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/customers.png'><br>
-                     <b>Customer Focus</b>
-                     <p>We conduct our business with honesty and transparency.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/expert.png'><br>
-                     <b>Proficiency</b>
-                     <p>We uphold proficiency as a core value by delivering services with skill, accuracy, and professionalism to meet and exceed client expectations.</p>
-                </div>
-                <div class = 'col-md-6'>
-                     <img src = '<?php echo $BASE_URL;?>/Icons/sustain.png'><br>
-                     <b>Sustainability</b>
-                     <p>We deliver services and products on time and to specification.</p>
-                </div>
-
+                <div class='col-md-6'  id = 'why-choose-us'>
+                        <div class="row">
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/commit.png'><br>
+                                <p>Commitment to international best practices and ethical standards.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/customers.png'><br>
+                                <p>Highly skilled workforce and strong technical expertise.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/pricing.png'><br>
+                                <p>Competitive pricing without compromising quality.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/satisfaction.png'><br>
+                                <p>Focus on customer satisfaction and long-term relationships.</p>
+                            </div>
+                            <div class = 'col-md-6'>
+                                <img src = '<?php echo $BASE_URL;?>/Icons/track.png'><br>
+                                <p>Proven track record in service delivery across multiple sectors.</p>
+                            </div>
+                        </div> 
                     </div>
-
-                    
                 </div>
-                
-             </div>
-        </section>
+    </section>
+    <section id = 'catchy-section'> 
+        <div class = 'container'>
+            <h1>Investing in Quality That Lasts</h1>
+            <hr><br>
+            <div class = 'row'>
+                <div class = 'col-md-4' id = 'catchy-pic'>
+                    <img src = '<?php echo $BASE_URL;?>/bg/vacancy.jpg'>
+                </div>
+                <div class = 'col-md-8' id = 'catchy-text'>
+                    <p>
+                        Choosing our company means more than just hiring a service provider — it’s 
+                        about securing precision, durability, and reliability for your projects. 
+                        When customers pay for our construction and line boring services, they are 
+                        investing in quality workmanship, advanced technology, and solutions built to 
+                        last
+                    </p>
+                </div>
+                <div class = 'col-md-4' id = 'catchy-pic'>
+                    <img src = '<?php echo $BASE_URL;?>/bg/man_bg.jpg'>
+                </div>
+                <div class = 'col-md-8' id = 'catchy-text'>
+                    <p>
+                        Every payment ensures that we deliver projects on time, maintain the highest 
+                        safety standards, and provide tailored solutions that meet your exact needs. With us, 
+                        you don’t just pay for a service — you pay for peace of mind, long-term value, 
+                        and a trusted partner committed to building your success
+                    </p>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
 </div>
+
+<script>
+    setInterval(function()
+    {
+       num = Number($('#num-bg').text());
+       pics = ['bussing.jpg',
+               'toilets.jpg',
+               'auto-repair-2.jpg',
+               'construction-home-bg.jpg',
+              ];
+
+      header = ['Bussing People Safely',
+                'Leasing Mobile Toilets',
+                'Repairing Vehicles Reliably',
+                'Construction with Integrity',
+              ];
+
+       text = [`We provide premium bussing services for schools, 
+                corporate clients, events, and community transit. Our mission 
+                is to deliver safe, reliable, and comfortable transport solutions 
+                tailored to the needs of our customers.`,
+
+               `GVCP is a trusted provider of mobile toilet leasing solutions, dedicated
+                to delivering clean, convenient, and reliable sanitation facilities for a 
+                wide range of clients and events. We understand the importance of hygiene 
+                and comfort, and our services are designed to meet both short-term and long-term needs`,
+
+               `GVCP provides professional automotive repair and maintenance services designed to keep 
+                vehicles running safely, efficiently, and for longer. Our team of skilled technicians 
+                combines technical expertise with modern diagnostic tools to deliver trusted repair solutions 
+                for individuals, businesses, and fleets.`,
+                
+               `GVCP provides a wide range of construction
+                services designed to meet the needs of clients
+                in residential, commercial, and industrial 
+                sectors. The company focuses on delivering high-quality,
+                cost-effective, and sustainable solutions while maintaining 
+                strict safety and quality standards`,
+              ];
+    
+       $('#hero').css('background-image',"url('<?php echo $BASE_URL;?>/bg/"+pics[num]+"')");
+       $('#hero p').css('opacity','0');
+       $('#hero hr').css('width','0px');
+       $('#hero h1').css('margin-top','5cm');
+
+       setTimeout(function(){
+         $('#hero h1').text(''+header[num]);
+         $('#hero p').text(''+text[num]);
+         $('#hero p').css('opacity','1');
+         $('#hero h1').css('margin-top','0cm');
+         $('#hero hr').css('width','100%');
+       },1000);
+
+       nums = num + 1;
+       if(nums > pics.length - 1)
+       {
+         $('#num-bg').text("0");
+       }
+       else
+       {
+         $('#num-bg').text(""+nums);
+       }
+    },5000);
+</script>
+

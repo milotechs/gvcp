@@ -4,6 +4,7 @@
       background-color: black;
       padding-bottom: 4cm;
       color : white;
+      margin-top: 4cm;
     }
 
     #slogan-footer
@@ -25,32 +26,5 @@
     {
       background: orange;
     }
-
-    /* ---------- contact ----------*/
-    #contact_pic img
-    {
-      width : 100%;
-      height : auto;
-    }
-
-    #footer-bottom
-    {
-      
-      
-      padding : 10mm 0mm;
-      width: 100%;
-    }
-    #footer-bottom a
-    {
-      color : orange;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    #footer-bottom a:hover
-    {
-      text-decoration: underline;
-      color: blueviolet;
-    }
-
 
 </style>
